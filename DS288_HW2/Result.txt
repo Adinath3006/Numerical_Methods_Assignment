@@ -1,0 +1,78 @@
+
+
+Problem 1
+
+-------------------------------------------------
+Muller's Method
+The 3 th iteration found the approximate root to be: (0.4415173199765867+0j)
+The 4 th iteration found the approximate root to be: (0.5125463574012834+0j)
+The 5 th iteration found the approximate root to be: (0.5176932452157981+0j)
+The 6 th iteration found the approximate root to be: (0.5177573710450456+0j)
+The 7 th iteration found the approximate root to be: (0.5177573636824575+0j)
+
+Problem 2
+
+-------------------------------------------------
+Fixed Point Iteration
+The approximate root in the  1 th iteration is: (0.6271051211084304+0j)
+The approximate root in the  2 th iteration is: (0.5744377938571832+0j)
+The approximate root in the  3 th iteration is: (0.5940962020487442+0j)
+The approximate root in the  4 th iteration is: (0.5863974476155432+0j)
+The approximate root in the  5 th iteration is: (0.5893614151574638+0j)
+The approximate root in the  6 th iteration is: (0.5882125145558638+0j)
+The approximate root in the  7 th iteration is: (0.5886566968183153+0j)
+The approximate root in the  8 th iteration is: (0.5884847954898151+0j)
+The approximate root in the  9 th iteration is: (0.5885512964017168+0j)
+The approximate root in the  10 th iteration is: (0.5885255662912261+0j)
+The approximate root in the  11 th iteration is: (0.5885355210398051+0j)
+The approximate root in the  12 th iteration is: (0.5885316695498379+0j)
+The approximate root in the  13 th iteration is: (0.5885331596773831+0j)
+The approximate root with relative tolerance of  1e-06  is found in  14  iterations and its value is: (0.5885325831504694+0j)
+
+Problem 3
+
+-------------------------------------------------
+Lagrange Interpolation Polynomial
+1.429e-6*x**3 - 0.001309*x**2 + 0.4009*x - 38.61
+At x=301 , 2.4785971
+
+Problem 4
+
+-------------------------------------------------
+Newton Divided Difference Polynomial
+At x=7 , 351.000000000000
+4.25*x + (x - 3.0)*(x - 1.5)*(1.0*x - 0.5) + (x - 1.5)*(5.0*x - 2.5) - 0.5
+-------------------------------------------------
+Newton's Forward Difference Method
+1.8503717077086e-19*s*(s - 3)*(s - 2)*(s - 1) + 6.66133814775094e-18*s*(s - 2)*(s - 1) + 0.0199999999999999*s*(s - 1) + 0.16*s + 1.4
+At x = 0.25 , 1.65500000000000
+-------------------------------------------------
+Newton's Forward Difference Method
+1.8503717077086e-19*s*(s - 3)*(s - 2)*(s - 1) + 6.66133814775094e-18*s*(s - 2)*(s - 1) + 0.0199999999999999*s*(s - 1) + 0.16*s + 1.4
+At x = 0.35 ,1.87500000000000
+
+Problem 5
+
+-------------------------------------------------
+Cubic Spline
+S(x) =  -1.388*x + 4.659*(0.3333*x - 1.0)**3 + 6.665  for [ 3.0 , 4.5 ]
+S(x) =  -0.1059*x - 18.01*(0.2222*x - 1.0)**3 + 15.72*(0.2222*x - 1.0)**2 + 1.476  for [ 4.5 , 7.0 ]
+S(x) =  -0.05882*x + 40.35*(0.1429*x - 1.0)**3 - 34.59*(0.1429*x - 1.0)**2 + 2.912  for [ 7.0 , 9.0 ]
+S(7.5) = 2.30884905378768
+-------------------------------------------------
+Cubic Spline
+S(x) =  -1.388*x + 4.659*(0.3333*x - 1.0)**3 + 6.665  for [ 3.0 , 4.5 ]
+S(x) =  -0.1059*x - 18.01*(0.2222*x - 1.0)**3 + 15.72*(0.2222*x - 1.0)**2 + 1.476  for [ 4.5 , 7.0 ]
+S(x) =  -0.05882*x + 40.35*(0.1429*x - 1.0)**3 - 34.59*(0.1429*x - 1.0)**2 + 2.912  for [ 7.0 , 9.0 ]
+S(4) = 1.284
+
+Problem 6
+
+-------------------------------------------------
+Hermite polynomial computed using Lagrange Interpolation method
+-0.00277469135825115*x**5 + 0.0240317901254343*x**4 - 0.0145560802534987*x**3 - 0.235216169742557*x**2 - 0.00822922346532096*x + 1.00194406469402
+At x=1.5 , 0.511827701728394
+-------------------------------------------------
+Hermite polynomial computed using Divided difference method
+-0.00277469135798944*x**5 + 0.0240317901231809*x**4 - 0.0145560802460553*x**3 - 0.235216169754413*x**2 - 0.00822922345577154*x + 1.00194406469105
+At x=1.5 , 0.511827701728395
