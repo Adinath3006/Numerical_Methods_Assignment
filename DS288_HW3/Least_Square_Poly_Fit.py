@@ -1,0 +1,69 @@
+# Refer NUMERICAL ANALYSIS by Richard L. Burden; Chapter 8: Approximation Thoery; 
+# Section 8.1: Discrete Least Squares Approximation ----> Polynomial Least Squares
+# Notations used as in the above book
+
+# The argument A gets the input data matrix of the form: A = [[x1, x2, x3, ..., xm],[y1, y2, y3, ..., ym]]
+
+def Least_Square_Fit_Poly(A,n):
+    
+    import sympy as sym
+    import numpy as np
+    
+    x = sym.symbols('x')
+    
+    # Creating and initializing a column matrix to store all the values y_1*(x^i_1) + ... + y_m*(x^i_m) for each i in 0 to n
+    Sum_YX = np.zeros([n+1,1])
+    
+    # Compute and store the entries of the Sum_XY matrix
+    i = 0
+    while i < n+1:
+        
+        # Compute the sum y_1*(x^i_1) + ... + y_m*(x^i_m)
+        Sum_xy = 0
+        j = 0
+        while j < len(A[0]):
+            Sum_xy = Sum_xy + (A[1][j])*(A[0][j])**i
+            j = j+1
+        Sum_YX[i][0] = round(Sum_xy,6)
+        i = i+1
+        
+    # Creating and initializing a column matrix to store all the values x^i_1 + ... + x^i_m for each i in 0 to 2*n
+    Sum_X = np.zeros([n+1,n+1])
+    
+    # Compute and store the entries of the Sum_X matrix
+    k = 0
+    while k < n+1:
+        m = 0
+        while m < n+1:
+
+            # Compute the sum x^i_1 + ... + x^i_m
+            Sum_x = 0
+            p = 0
+            while p < len(A[0]):
+                Sum_x = Sum_x + (A[0][p])**(k+m)
+                p = p+1
+            Sum_X[k][m] = round(Sum_x,4)
+            m = m+1
+        k = k+1
+     
+    # Compute the Poly_Coeff column matrix
+    Poly_Coeff = np.linalg.inv(Sum_X).dot(Sum_YX)
+    
+    # Computing the fit polynomial symbolically
+    Polynomial = 0
+    a = 0
+    while a < n+1:
+        Polynomial = Polynomial + (round(Poly_Coeff[a][0],6))*(x)**a
+        a = a+1
+    
+    print("")
+    print("-------------------------------------------------")
+    print("            LEAST SQUARE FIT ( n =", n,")")
+    print("-------------------------------------------------")
+    print("")
+
+    print("")
+    print("The integral is evaluated to be:", Polynomial)
+
+    return Polynomial
+

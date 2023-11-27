@@ -1,0 +1,252 @@
+Adinath M
+18990
+
+-------------------------------------------------
+                    PROBLEM 1
+-------------------------------------------------
+
+-------------------------------------------------
+            LEAST SQUARE FIT ( n = 2 )
+-------------------------------------------------
+
+
+The integral is evaluated to be: 1.955357*x**2 - 0.853571*x + 2.977714
+
+-------------------------------------------------
+            LEAST SQUARE FIT ( n = 3 )
+-------------------------------------------------
+
+
+The integral is evaluated to be: 1.042374*x**3 - 0.546339*x**2 + 0.580735*x + 2.89766
+
+We can see from the graph that the cubic fitting polynmial fits the points better than quadratic polynomial, as the higher degree polynomial fits the data better by osciallating through the points 
+
+The graph is attached in the file
+
+-----------------------------------------------------------------------------
+-------------------------------------------------
+                    PROBLEM 2
+-------------------------------------------------
+
+-------------------------------------------------
+               LEAST SQUARE FIT
+-------------------------------------------------
+
+
+The final fit function is: 0.305844555994415*exp(-2*x) + 0.68532815760392*exp(-3*x)
+-----------------------------------------------------------------------------
+-------------------------------------------------
+                    PROBLEM 3
+-------------------------------------------------
+
+-------------------------------------------------
+          THREE POINT MIDPOINT FORMULA
+-------------------------------------------------
+
+The derivative evaluated at 2.0 using this method with h = 0.1000000 is: 22.228790
+The derivative evaluated at 2.0 using this method with h = 0.2000000 is: 22.414162
+
+-------------------------------------------------
+          THREE POINT ENDPOINT FORMULA
+-------------------------------------------------
+
+----------------- LEFT ENDPOINT -----------------
+
+The derivative evaluated at 2.0 using this method with h = 0.1000000 is: 22.032310
+
+-------------------------------------------------
+          THREE POINT ENDPOINT FORMULA
+-------------------------------------------------
+
+---------------- RIGHT ENDPOINT -----------------
+
+The derivative evaluated at 2.0 using this method with h = -0.1000000 is: 22.054525
+
+-------------------------------------------------
+           FIVE POINT MIDPOINT FORMULA
+-------------------------------------------------
+
+The derivative evaluated at 2.0 using this method with h = 0.1000000 is: 22.166999
+
+-------------------------------------------------
+           FIVE POINT ENDPOINT FORMULA
+-------------------------------------------------
+
+----------------- LEFT ENDPOINT -----------------
+
+Invalid input!
+Evaluation of the derivative using this method for the given value is not possible!
+
+-------------------------------------------------
+           FIVE POINT ENDPOINT FORMULA
+-------------------------------------------------
+
+---------------- RIGHT ENDPOINT -----------------
+
+Invalid input!
+Evaluation of the derivative using this method for the given value is not possible!
+
+-------------------------------------------------
+        SECOND DERIVATIVE MIDPOINT FORMULA
+-------------------------------------------------
+
+The derivative evaluated at 2.0 using this method with h = 0.1000000 is: 29.593200
+The derivative evaluated at 2.0 using this method with h = 0.2000000 is: 29.704275
+
+-------------------------------------------------
+        SECOND DERIVATIVE MIDPOINT FORMULA
+-------------------------------------------------
+
+The derivative evaluated at 1.9 using this method with h = 0.1000000 is: 26.107900
+
+-------------------------------------------------
+        SECOND DERIVATIVE MIDPOINT FORMULA
+-------------------------------------------------
+
+The derivative evaluated at 2.1 using this method with h = 0.1000000 is: 33.522800
+
+-------------------------------------------------
+          THREE POINT MIDPOINT FORMULA
+-------------------------------------------------
+
+The derivative evaluated at 2.0 using this method with h = 0.1000000 is: 37.074500
+-----------------------------------------------------------------------------
+-------------------------------------------------
+                    PROBLEM 4
+-------------------------------------------------
+
+-------------------------------------------------
+       COMPOSITE TRAPEZOIDAL RULE ( n = 2 )
+-------------------------------------------------
+
+
+The integral is evaluated to be: 1.5707963267948966
+
+-------------------------------------------------
+       COMPOSITE TRAPEZOIDAL RULE ( n = 4 )
+-------------------------------------------------
+
+
+The integral is evaluated to be: 1.5707963267948966
+
+-------------------------------------------------
+       COMPOSITE TRAPEZOIDAL RULE ( n = 8 )
+-------------------------------------------------
+
+
+The integral is evaluated to be: 1.5707963267948966
+
+-------------------------------------------------
+       COMPOSITE TRAPEZOIDAL RULE ( n = 16 )
+-------------------------------------------------
+
+
+The integral is evaluated to be: 1.5707963267948966
+
+-------------------------------------------------
+        COMPOSITE SIMPSON'S RULE ( n = 2 )
+-------------------------------------------------
+
+
+The integral is evaluated to be: 2.0943951023931953
+
+-------------------------------------------------
+        COMPOSITE SIMPSON'S RULE ( n = 4 )
+-------------------------------------------------
+
+
+The integral is evaluated to be: 1.5707963267948968
+
+-------------------------------------------------
+        COMPOSITE SIMPSON'S RULE ( n = 8 )
+-------------------------------------------------
+
+
+The integral is evaluated to be: 1.5707963267948966
+
+-------------------------------------------------
+        COMPOSITE SIMPSON'S RULE ( n = 16 )
+-------------------------------------------------
+
+
+The integral is evaluated to be: 1.5707963267948968
+
+-------------------------------------------------
+              ROMBERG INTEGRATION
+-------------------------------------------------
+
+R_1,1: 2.3558171576799582e-32
+R_2,1: 1.5707963267948966
+R_2,2: 2.0943951023931953
+R_2,1: 1.5707963267948968
+R_2,2: 1.5707963267948968
+R_2,3: 1.5707963267948968
+R_2,1: 1.5707963267948966
+R_2,2: 1.5707963267948966
+R_2,3: 1.5707963267948966
+R_2,4: 1.5707963267948966
+R_2,1: 1.5707963267948968
+R_2,2: 1.5707963267948968
+R_2,3: 1.5707963267948968
+R_2,4: 1.5707963267948968
+R_2,5: 1.5707963267948968
+-----------------------------------------------------------------------------
+-------------------------------------------------
+                    PROBLEM 5
+-------------------------------------------------
+------------------- Part (a) --------------------
+
+-------------------------------------------------
+           GAUSSIAN QUADRATURE ( n = 8 )
+-------------------------------------------------
+
+ The integral evaluated in the interval [ -1 , 1 ] in this method is: 0.8788846226
+
+------------------- Part (b) --------------------
+
+-------------------------------------------------
+           GAUSSIAN QUADRATURE ( n = 4 )
+-------------------------------------------------
+
+ The integral evaluated in the interval [ -1 , 0 ] in this method is: 0.1606027775
+
+-------------------------------------------------
+           GAUSSIAN QUADRATURE ( n = 4 )
+-------------------------------------------------
+
+ The integral evaluated in the interval [ 0 , 1 ] in this method is: 0.7182817683
+
+ The integral evaluated in the interval [ -1 , 1 ] is: 0.8788845458
+
+------------------- Part (c) --------------------
+
+-------------------------------------------------
+           GAUSSIAN QUADRATURE ( n = 2 )
+-------------------------------------------------
+
+ The integral evaluated in the interval [ -1 , -0.5 ] in this method is: 0.1318048310
+
+-------------------------------------------------
+           GAUSSIAN QUADRATURE ( n = 2 )
+-------------------------------------------------
+
+ The integral evaluated in the interval [ -0.5 , 0 ] in this method is: 0.02871828808
+
+-------------------------------------------------
+           GAUSSIAN QUADRATURE ( n = 2 )
+-------------------------------------------------
+
+ The integral evaluated in the interval [ 0 , 0.5 ] in this method is: 0.06077020746
+
+-------------------------------------------------
+           GAUSSIAN QUADRATURE ( n = 2 )
+-------------------------------------------------
+
+ The integral evaluated in the interval [ 0.5 , 1 ] in this method is: 0.6570944696
+
+ The integral evaluated in the interval [ -1 , 1 ] is: 0.8783877961
+
+The given function does not vary by a large margin in the given interval so, higher degree n gives more accurate results when compared to piece by piece integration.
+Thus n = 8 gives the best possible approximation. Legendre polynomial of order 8 has more nodes in comparison with n = 2 and 4 so hence it gives a better result.
+Also Gaussian Quadrature gives no error upto polynomial of order 2n, thus while taylor expanding the given function, n=8 gives error only after 
+degree 16 polynomial which is highest compared to the other two.
